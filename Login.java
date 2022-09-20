@@ -17,7 +17,7 @@ class Login {
             boolean flag = false;
             while(it.hasNext()) {
                 User user = it.next();
-                if(password.equals(user.getPassward())) {
+                if(password.equals(user.getPassword())) {
                     flag = true;
                     System.out.println ("Поздравляем с успешным входом!");
                     break;
